@@ -126,6 +126,7 @@ function removeTaskFromLocalStorage(taskItem){
         }
     });
 
+    // Set Item to LS
     localStorage.setItem('tasks', JSON.stringify(tasks));
 }
 
