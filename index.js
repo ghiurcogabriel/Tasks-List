@@ -109,7 +109,6 @@ function removeTask(e){
         removeTaskFromLocalStorage(e.target.parentElement.parentElement);
         }
     }
-    
 }
 
 // Remove from LS
